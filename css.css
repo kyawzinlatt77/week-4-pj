@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.project {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* h1 {
+    margin-left: 76px;    
+} */
+
+h2,
+h3 {
+  padding: 24px 0;
+}
+
+h2:hover {
+  color: #2b2b2b;
+}
+
+h3:hover {
+  color: #2b2b2b;
+}
+
+.project header {
+  background-color: hsl(255, 92%, 76%);
+  color: #ffffff;
+  padding: 24px 0;
+}
+
+/* .top {
+    /* background-color: hsl(255, 92%, 76%);
+    align-items: center;
+    color: #FFFFFF; */
+
+/* } */
+*/ span {
+  color: #312e81;
+}
+
+h2,
+h3 {
+  color: #484848;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+
+/* .jp p {
+    padding: 1rem;
+} */
+
+img {
+  width: 80%;
+  /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+p {
+  margin-top: 1rem;
+  line-height: 1.5;
+  padding-bottom: 12px;
+}
+
+.bot {
+  background-color: #ffe5d9;
+}
+
+button {
+  padding: 12px 24px;
+  margin-right: 24px;
+}
+
+button:hover {
+  color: #484848;
+}
+
+.btn1 {
+  background-color: #ff6820;
+  color: #fff;
+}
+
+.btn1:hover {
+  background-color: #be4c17;
+}
+
+footer {
+  background-color: #a78bfa;
+  color: #fff;
+  position: sticky;
+  padding: 1rem;
+  bottom: 0;
+  align-items: center;
+  padding: 24px;
+  text-align: center;
+  display: flex;
+}
+
+footer a {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 36px;
+}
+
+footer a:hover {
+  color: #484848;
+}
